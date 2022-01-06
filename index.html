@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Right Rev - Srujan </title>
+<link rel = "stylesheet" href="main.css"></link>
+</head>
+<body>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Data In the Table...">
+
+<table id="table">
+<thead>
+    <th onclick="sortColumn('name.official')">Official Name</th>
+    <th onclick="sortColumn('capital')">Capital</th>
+    <th onclick="sortColumn('population')">Population</th>	
+	<th onclick="sortColumn('area')">Area</th>
+	<th onclick="sortColumn('region')">Continent</th>
+    <th onclick="sortColumn('borders')">Border</th>
+</thead>
+<tbody id="data">
+</tbody>
+</table>
+
+<script src = "main.js"></script>
+
+</body>
+</html>
